@@ -1,0 +1,151 @@
+body{
+    background-image:url(Img/Background.jpg);
+    background-position: center;
+    background-size: contain;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu{
+    width: 42%;
+    background-color: rgb(225, 135, 167);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px;
+}
+
+.menu header{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.menu  h2, p{
+    text-align: center;
+}
+
+.item p{
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.dessert, .flavor, .drinks{
+    width: 50%;
+    text-align: left;
+}
+
+.price{
+    width: 35%;
+    text-align: right;
+}
+
+
+hr{
+    height: 1px;
+    background-color: black;
+    border-color: black;
+}
+
+
+.box{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box img{
+    width: 50px;
+    height: 23px;
+}
+
+.boxx{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxx img{
+    width: 29px;
+    height: 23px;
+}
+
+.boxxx{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxxx img{
+    width: 30px;
+    height: 23px;
+}
+
+.footer{
+    margin-top: 2px;
+}
+.container{
+    width: 42%;
+    background-color:rgb(225, 135, 167);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 19px;
+    position: relative;   
+}
+h1{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 10px;
+}
+.input-box label{
+    color: black;
+}
+.form .input-box input{
+    position: relative;
+    height: 25px;
+    width: 70%;
+    outline: none;
+    font-size: medium;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+.form .column{
+    display: flex;
+    column-gap: 13px;
+}
+.form .input-box textarea{
+    position: relative;
+    height: 100px;
+    width: 70%;
+    outline: none;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.form button{
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    background-color: rgb(224, 57, 115);
+}
+.form button:hover{
+    background-color: rgb(227, 0, 80);
+}
+
